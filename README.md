@@ -7,8 +7,10 @@ In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaS
 
 ## Objectives
 - Review
+- Learn arrow functions and how they can clean up our code
 - Learn about the spread operator and the power it gives us
--
+- Learn all about destructuring
+- Get practice in with each of these new concepts
 
 ## Lesson Instructions
 
