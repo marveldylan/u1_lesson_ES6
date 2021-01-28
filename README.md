@@ -1,8 +1,18 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  WEB DEVELOPMENT IMMERSIVE
+# JavaScript ES6 Syntax
 
-# Review
+![Future](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FxrvxCwG0uFivu%2Fgiphy.gif&f=1&nofb=1)
 
-React and ES6 are closely intertwined so let's begin by separating what is React and what is ES6. This will help us debug or code and have a better understanding of React. 
+## Lesson Overview
+In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaScript syntax: ES6 or ECMAScript 2015.
+
+## Objectives
+- Review
+- Learn about the spread operator and the power it gives us
+-
+
+## Lesson Instructions
+
+### Review
 
 **Function Declaration:**
 
@@ -28,9 +38,11 @@ function(status) {
 }
 ```
 
-# ES6
+### ES6
 
-### ES6 Arrow Functions
+![arrow](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftransom.org%2Fwp-content%2Fuploads%2F2012%2F07%2Fstraight-arrow-marquee.gif&f=1&nofb=1)
+
+#### ES6 Arrow Functions
 
 ```js
 const error = (status) => { 
@@ -38,25 +50,25 @@ const error = (status) => {
 }
 ```
 
-You can go one step further:
+**You can go one step further:**
 
 ```js
 const error = status => console.error(status)
 ```
 
-No parameters:
+**No parameters:**
 
 ```js
 const error = () => console.error('404')
 ```
 
-Multiple Parameters:
+**Multiple Parameters:**
 
 ```js
 const error = (status, msg) => console.error(status, msg)
 ```
 
-Multiple lines:
+**Multiple lines:**
 
 ```js
 const error = (status) => {
@@ -65,7 +77,9 @@ const error = (status) => {
 }
 ```
 
-### Spread Syntax
+![...](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sheknows.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fellipsis_xr1tub.gif&f=1&nofb=1)
+
+#### Spread Syntax
 
 ES6 introduced the spread syntax for dealing with cases when we want to generate new versions of Arrays and Objects in a clean, readable manner.
 
@@ -235,7 +249,7 @@ console.log(allLetters);
 
 </details>
 
-## Use Cases and Drawbacks
+### Use Cases and Drawbacks
 
 The spread operator is quickly becoming one of the key work horses of ES6.  The flexible and clean syntax allows smooth merging of data from disparate sources as well as a safe way to handle state updates in frameworks like React.
 
@@ -305,7 +319,9 @@ letters:  { vowels: { a: 20 }, a: 1, b: 2, c: 3 }
 
 </details>
 
-## Destructuring
+![think](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2F1bea221a4eada028b51550a1201f08969866a3cb%2F38cc9%2Fdf93080036f11c6711f402238caf0bcb%2Froll-safe.gif&f=1&nofb=1)
+
+### Destructuring
 
 In addition to the spread syntax, ES6 also introduced a mechanism for extracting one or more key/value pairs from an object.  The syntax resembles variable assignment with a few tweaks:
 
@@ -380,12 +396,14 @@ console.log(y)
 // <- VanWoerkom
 ```
 
+![practice](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F8vkEKXvnXkyCZx8w6b%2Fgiphy.gif&f=1&nofb=1)
+
 #### Practice
 
 ##### Destructuring
-In a scratch .js file, define a javascript Object with three keys, `name`, `age`, and `hometown` (use your own info or your neighbors).
+In a scratch .js file, define a JavaScript Object with three keys, `name`, `age`, and `hometown` (use your own info or your neighbors).
 
-Try using the destructuring syntax to extract all three keys into variables.  Log out each variable to the console using `node scratch.js`
+Try using the destructuring syntax to extract all three keys into variables.  Log out each variable to the console using `node scratch.js`.
 
 Next, delete 2 of the destructured variables and try using the spread operator to extract two of the keys but not the third.
 
@@ -400,4 +418,14 @@ Define an object `faveFoods` that has keys representing your favorite foods and 
 
 Now make another object `friendFaveFoods` and do the same thing but this time ask your neighbor what their favority foods are.
 
-Using the `spread` operator, build a final object `allFoods` with the items from `faveFoods` and `friendFaveFoods` together
+Using the `spread` operator, build a final object `allFoods` with the items from `faveFoods` and `friendFaveFoods` together.
+
+## Lesson Recap
+  We learned how ES6 introduced new things to JavaScript and made our code more readable.  We learned about the differences between ES5 and ES6 and why it's important we stick to ES6 going forward.
+  
+![done](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F6HOkD1pSCne4E%2Fgiphy.gif&f=1&nofb=1)
+  
+## Resources
+ - [What is ES6?](https://www.educba.com/what-is-es6/)
+ - [W3Schools: ES6](https://www.w3schools.com/Js/js_es6.asp)
+ - [Top 10 ES6 Features](https://webapplog.com/es6/)
