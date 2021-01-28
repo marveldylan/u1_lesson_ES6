@@ -400,16 +400,16 @@ console.log(y)
 
 ![practice](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F8vkEKXvnXkyCZx8w6b%2Fgiphy.gif&f=1&nofb=1)
 
-#### Practice
+### Practice
 
-##### Destructuring
+#### Destructuring
 In a scratch .js file, define a JavaScript Object with three keys, `name`, `age`, and `hometown` (use your own info or your neighbors).
 
 Try using the destructuring syntax to extract all three keys into variables.  Log out each variable to the console using `node scratch.js`.
 
 Next, delete 2 of the destructured variables and try using the spread operator to extract two of the keys but not the third.
 
-##### Spreading Out
+#### Spreading Out
 Define two arrays, `evens` and `odds` filled with even and odd numbers.
 
 Using the spread operator, make a new array `numbers` that contains all of the evens and odds.
