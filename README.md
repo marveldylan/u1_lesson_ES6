@@ -12,6 +12,12 @@ In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaS
 - Learn all about destructuring
 - Get practice in with each of these new concepts
 
+## Getting Started
+
+- Fork and Clone
+- Open this repo in your code editor
+- Create an `index.js` file.
+
 ## Lesson Instructions
 
 ### Review
