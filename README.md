@@ -1,6 +1,6 @@
 # JavaScript ES6 Syntax
 
-![Future](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FxrvxCwG0uFivu%2Fgiphy.gif&f=1&nofb=1)
+![Future](https://www.educative.io/v2api/editorpage/5330288608542720/image/6288755792019456)
 
 ## Lesson Overview
 In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaScript syntax: ES6 or ECMAScript 2015.
@@ -413,8 +413,6 @@ In a scratch .js file, define a JavaScript Object with three keys, `name`, `age`
 
 Try using the destructuring syntax to extract all three keys into variables.  Log out each variable to the console using `node scratch.js`.
 
-Next, delete 2 of the destructured variables and try using the spread operator to extract two of the keys but not the third.
-
 #### Spreading Out
 Define two arrays, `evens` and `odds` filled with even and odd numbers.
 
@@ -430,8 +428,6 @@ Using the `spread` operator, build a final object `allFoods` with the items from
 
 ## Lesson Recap
   We learned how ES6 introduced new things to JavaScript and made our code more readable.  We learned about the differences between ES5 and ES6 and why it's important we stick to ES6 going forward.
-  
-![done](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F6HOkD1pSCne4E%2Fgiphy.gif&f=1&nofb=1)
   
 ## Resources
  - [What is ES6?](https://www.educba.com/what-is-es6/)
