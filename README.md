@@ -26,7 +26,7 @@ In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaS
 
 ```js
 function error(status) {
-  console.error(status)
+  console.log(status)
 }
 ```
 
@@ -34,7 +34,7 @@ function error(status) {
 
 ```js
 const error = function(status) {
-  console.error(status)
+  console.log(status)
 }
 ```
 
@@ -42,7 +42,7 @@ const error = function(status) {
 
 ```js
 function(status) {
-  console.error(status)
+  console.log(status)
 }
 ```
 
@@ -54,26 +54,26 @@ function(status) {
 
 ```js
 const error = (status) => { 
-  console.error(status)
+  console.log(status)
 }
 ```
 
 **You can go one step further:**
 
 ```js
-const error = status => console.error(status)
+const error = status => console.log(status)
 ```
 
 **No parameters:**
 
 ```js
-const error = () => console.error('404')
+const error = () => console.log('404')
 ```
 
 **Multiple Parameters:**
 
 ```js
-const error = (status, msg) => console.error(status, msg)
+const error = (status, msg) => console.log(status, msg)
 ```
 
 **Multiple lines:**
@@ -81,7 +81,7 @@ const error = (status, msg) => console.error(status, msg)
 ```js
 const error = (status) => {
   let msg = 'Error: '
-  console.error(msg, status)
+  console.log(msg, status)
 }
 ```
 
