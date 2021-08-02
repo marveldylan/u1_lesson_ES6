@@ -404,8 +404,6 @@ console.log(y)
 // <- VanWoerkom
 ```
 
-![practice](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F8vkEKXvnXkyCZx8w6b%2Fgiphy.gif&f=1&nofb=1)
-
 ### Practice
 
 #### Destructuring
