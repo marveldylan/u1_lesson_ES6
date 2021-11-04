@@ -6,8 +6,6 @@
 In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaScript syntax: ES6 or ECMAScript 2015.
 
 ## Objectives
-- Review
-- Learn arrow functions and how they can clean up our code
 - Learn about the spread operator and the power it gives us
 - Learn all about destructuring
 - Get practice in with each of these new concepts
@@ -20,71 +18,7 @@ In this lesson, we'll learn all about the new (as of 2015 lol) standard in JavaS
 
 ## Lesson Instructions
 
-### Review
-
-**Function Declaration:**
-
-```js
-function error(status) {
-  console.log(status)
-}
-```
-
-**Function Expression:**
-
-```js
-const error = function(status) {
-  console.log(status)
-}
-```
-
-**Anonymous Function:**
-
-```js
-function(status) {
-  console.log(status)
-}
-```
-
 ### ES6
-
-![arrow](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftransom.org%2Fwp-content%2Fuploads%2F2012%2F07%2Fstraight-arrow-marquee.gif&f=1&nofb=1)
-
-#### ES6 Arrow Functions
-
-```js
-const error = (status) => { 
-  console.log(status)
-}
-```
-
-**You can go one step further:**
-
-```js
-const error = status => console.log(status)
-```
-
-**No parameters:**
-
-```js
-const error = () => console.log('404')
-```
-
-**Multiple Parameters:**
-
-```js
-const error = (status, msg) => console.log(status, msg)
-```
-
-**Multiple lines:**
-
-```js
-const error = (status) => {
-  let msg = 'Error: '
-  console.log(msg, status)
-}
-```
-
 ![...](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sheknows.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fellipsis_xr1tub.gif&f=1&nofb=1)
 
 #### Spread Syntax
