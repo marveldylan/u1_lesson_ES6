@@ -268,13 +268,13 @@ letters:  { vowels: { a: 20 }, a: 1, b: 2, c: 3 }
 In addition to the spread syntax, ES6 also introduced a mechanism for extracting one or more key/value pairs from an object.  The syntax resembles variable assignment with a few tweaks:
 
 ```javascript
-const person = { first_name: 'Drake', last_name: 'Talley', city: 'Memphis' };
-const { first_name, last_name } = person;
+const person = { firstName: 'Drake', lastName: 'Talley', city: 'Memphis' };
+const { firstName, lastName } = person;
 
-console.log(first_name);
+console.log(firstName);
 ```
 
-The above will log the value of `first_name` to the console:
+The above will log the value of `firstName` to the console:
 
 ```
 Drake
