@@ -330,11 +330,11 @@ Memphis
       last: 'VanWoerkom'
     }
   }
-let {first, last} = getCoords()
+let {first, last} = getName()
 
 console.log(first)
 // <- Steve
-console.log(y)
+console.log(last)
 // <- VanWoerkom
 ```
 
